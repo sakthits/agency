@@ -1,0 +1,521 @@
+
+/** navbar section **/
+
+
+.navbar-main {
+	background-color: rgb(26, 25, 25);
+    padding: 18px 0;
+    border: none;
+    border-color: transparent;
+}
+
+.navbar-main .navbar-collapse {
+	border-color: rgba(255,255,255,.02);
+}
+
+.navbar-main .navbar-collapse .navbar-nav a .page-scroll {
+	background-color: #fed136;
+    border-color: #fed136;
+    color: #fff;
+}
+
+.navbar-main .navbar-collapse li a {
+	font-size: 14px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar-main .navbar-brand {
+	color: #fed136;
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-size: xx-large;
+}
+
+/** header section **/
+
+
+header {
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    color: #fff;
+    height: 700px;
+}
+
+header .text {
+    padding-top: 300px;
+    padding-bottom: 50px
+}
+
+header .text .head-1 {
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 38px;
+    line-height: 26px;
+    margin-bottom: 50px
+}
+
+header .text .big-head {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 50px;
+    margin-bottom: 60px
+}
+
+header .text a {
+	background-color: #fed136;
+    border-color: #fed136;
+    padding: 15px 40px;
+    border-radius: 2px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/** section-1 **/
+
+#sec-1 {
+	padding: 60px 0;
+    margin: 60px 0;
+}
+
+#sec-1 .heading {
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+#sec-1 .heading h2 {
+	text-transform: uppercase;
+    font-weight: 700;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 40px;
+}
+
+#sec-1 .heading h3 {
+	font-size: 16px;
+	color: #777;
+    font-weight: 400;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#sec-1 .text-primary {
+	color: #fed136;
+}
+
+#sec-1 h4 {
+	font-weight: 700;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 15px 0;
+}
+
+#sec-1 .para {
+	font-size: 14px;
+	color: #777;
+	line-height: 1.6;
+    font-weight: 500;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/** portfolio section **/
+
+#sec-2 {
+	padding: 150px 0;
+    background-color: #eee;
+}
+
+#sec-2 .heading {
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+#sec-2 .heading h2 {
+	text-transform: uppercase;
+    font-weight: 700;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 40px;
+}
+
+#sec-2 .heading h3 {
+	font-size: 16px;
+	color: #777;
+    font-weight: 400;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#sec-2 .portfolio-item {
+	margin: 0 0 30px;
+    z-index: 2;
+    right: 0;
+    padding: 0 15px;
+}
+
+#sec-2 .portfolio-item .portfolio-link {
+	display: block;
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto;
+    color: #fed136;
+    z-index: 2;
+}
+
+#sec-2 .portfolio-item .portfolio-link .portfolio-hover {
+	background: rgba(254,209,54,.9);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all ease .5s;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+}
+
+#sec-2 .portfolio-item .portfolio-link .portfolio-hover:hover {
+    opacity: 1
+}
+
+#sec-2 .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    font-size: 20px;
+    text-align: center;
+    top: 50%;
+    margin-top: -12px;
+    color: #fff
+}
+
+#sec-2 .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+    margin-top: -12px
+}
+
+#sec-2 img {
+	width: 100%;
+	height: 250px;
+}
+
+#sec-2 .portfolio-item .portfolio-caption {
+	max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 25px;
+	text-align: center;
+    line-height: 1;
+}
+
+#sec-2 h4 {
+	font-weight: 700;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#sec-2 p {
+	font-size: 16px;
+	color: #777;
+    font-weight: 400;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+
+/*** About section ***/
+
+#sec-3 {
+	padding: 60px 0;
+    margin: 60px 0;
+}
+
+#sec-3 .heading {
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+#sec-3 .heading h2 {
+	text-transform: uppercase;
+    font-weight: 700;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 40px;
+}
+
+#sec-3 .heading h3 {
+	font-size: 16px;
+	color: #777;
+    font-weight: 400;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#sec-3 .timeline {
+	list-style: none;
+    padding: 0;
+    position: relative;
+}
+
+#sec-3 .timeline li {
+	min-height: 170px;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+#sec-3 .timeline li .timeline-image {
+	width: 170px;
+    height: 170px;
+    margin-left: -85px;
+    position: absolute;
+    z-index: 100;
+    background-color: #fed136;
+    color: #fff;
+    border-radius: 100%;
+    border: 7px solid #f1f1f1;
+    text-align: center;
+    left: 50%;	
+}
+
+#sec-3 .timeline li .timeline-panel {
+	width: 41%;
+    float: left;
+    padding: 0 20px 20px 100px;
+    text-align: right;
+    position: relative;
+}
+
+#sec-3 .timeline li .timeline-panel .timeline-heading {
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    margin-top: 0;
+    color: inherit;
+}
+
+
+#sec-3 .timeline li .timeline-panel .timeline-body {
+	font-size: 16px;
+    line-height: 1.50;
+    color: #777;
+    margin-bottom: 0;
+}
+
+#sec-3 .timeline .timeline-inverted .timeline-panel {
+	padding: 0 100px 20px 20px;
+    float: right;
+    text-align: left;
+}
+
+#sec-3 .timeline .timeline-last {
+	min-height: 110px;
+}
+
+#sec-3 .timeline .timeline-last .timeline-image h4 {
+	margin-top: 40px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+/** team section **/
+
+#sec-4 {
+	padding: 100px 0;
+    background-color: #eee;
+}
+
+#sec-4 .heading {
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+#sec-4 .heading h2 {
+	text-transform: uppercase;
+    font-weight: 700;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 40px;
+}
+
+#sec-4 .heading h3 {
+	font-size: 16px;
+	color: #777;
+    font-weight: 400;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#sec-4 .team {
+	text-align: center;
+    margin-bottom: 50px;
+}
+
+#sec-4 .team img {
+	margin: 0 auto;
+    border: 7px solid #fff;
+}
+
+#sec-4 .team h4 {
+	margin-top: 25px;
+    margin-bottom: 0;
+    font-weight: 700;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#sec-4 .team p {
+    line-height: 1.75;
+    margin-top: 0;
+    font-size: 14px;
+	color: #777;
+    font-weight: 400;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#sec-4 .team ul li a {
+	display: block;
+    background-color: #222;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    color: #fff;
+    outline: 0;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+#sec-4 .heading p {
+    line-height: 1.75;
+    margin-top: 0;
+    font-size: 16px;
+	color: #777;
+    font-weight: 400;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/** aside logos section **/
+
+.logos {
+	padding: 50px 0;
+}
+
+/** Contact section **/
+
+#sec-5 {
+	padding: 130px 0;
+    background-color: #222;
+    background-image: url(../img/map-image.jpg);
+    background-repeat: no-repeat;
+     background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#sec-5 .heading {
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+#sec-5 .heading h2 {
+	text-transform: uppercase;
+    font-weight: 700;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 40px;
+    color: #fff;
+}
+
+#sec-5 .heading h3 {
+	font-size: 16px;
+	color: #777;
+    font-weight: 400;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+}
+
+#sec-5 #contactForm .form-group {
+	margin-bottom: 25px;
+}
+
+#sec-5 #contactForm .form-group input {
+	height: auto;
+	padding: 20px;
+}
+
+#sec-5 #contactForm .form-group .text-danger {
+	color: #e74c3c;
+}
+
+#sec-5 #contactForm .form-group textarea {
+	height: 236px;
+	padding: 20px;
+}
+
+#sec-5 #contactForm .btn-xl {
+	color: #fff;
+    background-color: #fed136;
+    border-color: #fed136;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 20px 40px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 50px;
+	text-align: center;
+}
+
+/** footer section **/
+
+footer {
+	padding: 25px 0;
+    text-align: center;
+}
+
+footer .copyright {
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 40px;
+}
+
+footer #social-links ul {
+	margin-bottom: 0;
+}
+
+footer #social-links ul li a {
+	display: block;
+    background-color: #222;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    color: #fff;
+    outline: 0;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+footer #links-use {
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 40px;
+    margin-bottom: 0;
+}
+
+footer #links-use ul li a {
+	color: #fed136;
+	outline: 0;
+}
+
+
+
+
+
+
+
+
+
